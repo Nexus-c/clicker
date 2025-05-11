@@ -1,0 +1,55 @@
+
+    body {
+        background: radial-gradient(circle at top left, #0a0a0a, #000000 90%);
+        color: #d1d1d1;
+        font-family: 'Orbitron', monospace;
+        text-align: center;
+        padding: 2em;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        color: #ff004c;
+        text-shadow: 0 0 5px #ff004c, 0 0 15px #8b0000;
+    }
+
+    #value {
+        font-size: 5rem;
+        font-weight: bold;
+        color: #00f0ff;
+        text-shadow: 0 0 5px #00f0ff, 0 0 20px #007d9c;
+    }
+
+    button {
+        background: #1c1c1c;
+        border: 2px solid #444;
+        color: #e6e6e6;
+        padding: 1em 2em;
+        margin: 0.5em;
+        font-size: 1.2em;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(255, 0, 76, 0.3), 0 0 20px rgba(0, 240, 255, 0.2);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    button:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 20px rgba(255, 0, 76, 0.5), 0 0 30px rgba(0, 240, 255, 0.4);
+        border-color: #ff004c;
+    }
+
+    #shop {
+        background-color: rgba(20, 20, 20, 0.85);
+        border-radius: 15px;
+        padding: 2em;
+        margin-top: 2em;
+        border: 2px dashed #555;
+        box-shadow: 0 0 20px rgba(255, 0, 76, 0.15);
+    }
+
+    .button {
+        display: inline-block;
+    }
