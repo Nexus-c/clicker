@@ -118,7 +118,7 @@ function loop(currentTime) {
 
   // Do something with delta, like update game objects here...
 
-  value += mmps * delta;
+  value += mmps;
   e.innerHTML = value
   requestAnimationFrame(loop);
 }
